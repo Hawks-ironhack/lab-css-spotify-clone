@@ -13,33 +13,31 @@ White: #FFF
 * {
     font-family: Montserrat;
 } */
-#section1 {
+#section1 .flex-3column {
     display:flex;
     justify-content:space-evenly;
     align-items: center;
 }
-
-
+.section1-title {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline  green;
+  
+}
 #section1 img {
     height: 50px;
     width: 50px;
 }
 
 #section1 .container {
-    display:flexbox;
+    display: flex;
     flex-direction:column;
     align-items: center;
     width: 350px;
     padding: 10px;
-    
+    font-weight: 400;
 }
 
-.section1-title {
-   display: flex;
-   justify-content: center;
-   text-decoration: underline  green;
-   
-}
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
 
 .container h3 {
@@ -113,6 +111,7 @@ header p {
     background-position: center;
     background-repeat: no-repeat;
     padding: 100px;
+    color: white;
 }
 
 h1 {
