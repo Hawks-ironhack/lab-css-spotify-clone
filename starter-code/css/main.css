@@ -113,7 +113,9 @@ header p {
     padding: 100px;
     color: white;
 }
-
+.kanye_heading {
+  text-decoration: underline;
+}
 h1 {
     font-size: 3em;
 }
