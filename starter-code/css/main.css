@@ -7,12 +7,12 @@ White: #FFF
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
 
 
 * {
     font-family: Montserrat;
-}
+} */
 #section1 {
     display:flex;
     justify-content:space-evenly;
@@ -40,9 +40,106 @@ White: #FFF
    text-decoration: underline  green;
    
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
 
 .container h3 {
     color:green;
     font-weight:bolder;
+}
+
+h1, h2, h3, h4, h5, h6, p {font-family: 'Montserrat', sans-serif;}
+html, body {
+  margin: 0 auto;
+}
+ /*Nav*/
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-width {
+  padding: 20px 20px;
+}
+.spotify-logo img {
+  width: 25%;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+.nav-list li {
+  padding-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+.nav-list li:last-child {
+  padding-right: 0;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  background-image: url(../images/landing.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header h1, header p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+header h1 {
+  margin: 0 0 35px;
+  font-size: 5em;
+  font-weight: 400;
+}
+header p {
+  margin: 0 25%;
+  font-size: 1.7em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.section2 {
+    height: 100%;
+    background-color: #00B172;
+    background-image: url('../images/spotify-icon-white.png');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+.s2left {
+    width: 500px;
+    float: left;
+    margin: auto auto;
+}
+
+.s2left > p {
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.s2right {
+    float: right;
+    padding: 80px 0 0 0;
+}
+
+.clearfix {
+    clear: both;
 }
 
